@@ -1,0 +1,11 @@
+# An empty list
+empty_list = []
+
+# A list of integers
+numbers = [1, 2, 3, 4, 5]
+
+# A list of strings
+fruits = ["apple", "banana", "cherry"]
+
+# A mixed data type list
+mixed = [10, "Hello", 3.14, True]
