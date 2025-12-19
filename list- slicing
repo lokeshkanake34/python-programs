@@ -1,0 +1,21 @@
+# Our sample list
+letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h']
+
+# 1. Basic Slice (Get items from index 2 to 4)
+# Note: index 5 is the 'stop', so it's not included
+print(letters[2:5])    # Output: ['c', 'd', 'e']
+
+# 2. Slice from the Beginning
+print(letters[:4])     # Output: ['a', 'b', 'c', 'd']
+
+# 3. Slice to the End
+print(letters[3:])     # Output: ['d', 'e', 'f', 'g', 'h']
+
+# 4. Using a Step (Get every 2nd item)
+print(letters[::2])    # Output: ['a', 'c', 'e', 'g']
+
+# 5. Negative Slicing (Get the last 3 items)
+print(letters[-3:])    # Output: ['f', 'g', 'h']
+
+# 6. Reversing a List (The 'Pythonic' way)
+print(letters[::-1])   # Output: ['h', 'g', 'f', 'e', 'd', 'c', 'b', 'a']
