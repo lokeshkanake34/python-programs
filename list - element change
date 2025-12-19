@@ -1,0 +1,8 @@
+colors = ["red", "green", "blue", "yellow", "orange"]
+
+# Change 'green', 'blue', and 'yellow' (indices 1 to 3)
+colors[1:4] = ["black", "white"]
+
+print(colors)
+# Output: ['red', 'black', 'white', 'orange']
+# Note: The list can shrink or grow if the new slice length is different.
