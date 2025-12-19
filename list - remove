@@ -1,0 +1,7 @@
+birds = ["Eagle", "Parrot", "Sparrow", "Parrot"]
+
+# Removes the first 'Parrot' found
+birds.remove("Parrot")
+
+print(birds) 
+# Output: ['Eagle', 'Sparrow', 'Parrot']
