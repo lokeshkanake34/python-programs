@@ -1,0 +1,7 @@
+tech_stack = ("Python", "Django", "SQL", "React", "Docker")
+
+# Access the first item
+print(tech_stack[0])   # Output: Python
+
+# Access the third item
+print(tech_stack[2])   # Output: SQL
