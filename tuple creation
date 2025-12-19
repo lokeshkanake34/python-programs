@@ -1,0 +1,10 @@
+# A simple tuple of strings
+fruits = ("apple", "banana", "cherry")
+
+# A tuple with different data types
+mixed_tuple = (1, "Hello", 3.4, True)
+
+# Creating a tuple without parentheses (called Tuple Packing)
+coordinates = 10, 20, 30 
+
+print(type(coordinates)) # Output: <class 'tuple'>
