@@ -1,0 +1,8 @@
+# Starting list
+hobbies = ["Reading", "Cycling"]
+
+# Adding an item
+hobbies.append("Painting")
+
+print(hobbies)
+# Output: ['Reading', 'Cycling', 'Painting']
